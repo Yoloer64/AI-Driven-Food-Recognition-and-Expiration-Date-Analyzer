@@ -30,6 +30,7 @@ def predict_shelf_life(image_path: str) -> float:
     return float(pred)
 
 if __name__ == "__main__":
-    image_path = "C:/Users/skimr/Downloads/Apple2.jpg"
+    image_path = "" #Insert path to image (i.e. C:/Users/users/Downloads/ApplePicture.jpg)
     result = predict_shelf_life(image_path)
     print(f"Predicted shelf-life midpoint: {result:.2f} days")
+
