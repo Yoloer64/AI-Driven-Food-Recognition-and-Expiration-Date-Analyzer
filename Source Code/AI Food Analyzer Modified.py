@@ -280,8 +280,8 @@ def predict_shelf_life(image_path):
     pred = xgb_model.predict(dmat)[0]
 
     return float(pred)
-
-new_image_path = "path_to_your_image.jpg"  # replace with actual image path
-predicted_shelf_life = predict_shelf_life(new_image_path)
-print(f"Predicted shelf-life midpoint: {predicted_shelf_life:.2f}")
+# Optional Testing Only
+#new_image_path = "path_to_your_image.jpg"  # replace with actual image path
+#predicted_shelf_life = predict_shelf_life(new_image_path)
+#print(f"Predicted shelf-life midpoint: {predicted_shelf_life:.2f}")
 
